@@ -171,7 +171,7 @@ Code decryption is done within the kernel, and the round functions are executed 
 
 ```c
 void FeistelDecrypt(
-    FEISTEL64_ROUND_DATA* rounds,
+    FEISTEL_ROUND_DATA* rounds,
     BYTE* input,
     BYTE* output,
     ULONG length,
